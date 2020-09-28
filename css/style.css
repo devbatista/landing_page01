@@ -15,12 +15,14 @@ html, body {
 }
 
 header {
+    min-width: 1200px;
     width: 100%;
     height: 60px;
     background-color: #212343;
 }
 
 .container {
+    padding: 0 2%;
     width: 1280px;
     margin: 0 auto;
 }
@@ -31,6 +33,7 @@ header img {
 }
 
 section.banner {
+    min-width: 1200px;
     width: 100%;
     height: 557px;
     background-image: url('../images/header_bg.png');
@@ -109,9 +112,9 @@ section.banner > .container {
 
 .list {
     padding: 30px;
-    margin-top: 40px;
+    margin-top: 100px;
     float: left;
-    width: 619px;
+    width: 519px;
     height: 270px;
     background-color: rgba(33, 35, 67, 0.7);
 }
@@ -126,6 +129,7 @@ section.banner > .container {
 }
 
 section.info {
+    min-width: 1200px;
     padding: 40px 0;
     background-color: #ccc;
     text-align: center;
@@ -151,4 +155,63 @@ div.arrow {
     background-size: 100% 100%;
     left: 50%;
     margin-left: -20px;
+}
+
+section.products {
+    padding: 90px 0;
+}
+
+section.products h2 {
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+section.product {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.items {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.single {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+}
+
+.single p {
+    text-align: justify;
+    padding: 10px 25px;
+}
+
+.single img {
+    width: 70px;
+}
+
+.clear {
+    clear: both; /* Para limpar todos os floats que tiverem antes */
+}
+
+footer {
+    background-color: #462663;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+footer p{
+    margin-top: 8px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
