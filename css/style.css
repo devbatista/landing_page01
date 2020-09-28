@@ -26,7 +26,8 @@ header {
 }
 
 header img {
-    margin: 19px;
+    margin: 5px;
+    width: 220px;
 }
 
 section.banner {
@@ -47,9 +48,13 @@ section.banner > .container {
     height: calc(100% + 30px);
     position: relative; /* Para ser possível manipular a posição de todos os lados */
     top: -15px;
-    border: 8px solid #ccc;
+    border-width: 12px;
+    border-style: solid;
+    border-color: rgba(120, 120, 120, 0.6);
     float: right;
     background-color: #fff;
+    background-clip: padding-box; /* Que comece a partir do limite do tamanho da div */
+    /*background-origin segue a mesma linha, porém para imagens*/
 }
 
 .form h2 {
@@ -100,4 +105,50 @@ section.banner > .container {
 
 .form input[type=submit]:hover {
     background-color: #323665;
+}
+
+.list {
+    padding: 30px;
+    margin-top: 40px;
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.7);
+}
+
+.list ul {
+    list-style-position: inside; /* ficar para dentro */
+}
+
+.list ul li {
+    margin-top: 18px;
+    color: #fff;
+}
+
+section.info {
+    padding: 40px 0;
+    background-color: #ccc;
+    text-align: center;
+}
+
+section.info h2 {
+    font-weight: normal;
+}
+
+section.info p {
+    margin: 15px 0;
+    width: 689px;
+    display: inline-block;
+    text-align: justify;
+}
+
+div.arrow {
+    position: relative;
+    top: 60px;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/arrow.png');
+    background-size: 100% 100%;
+    left: 50%;
+    margin-left: -20px;
 }
