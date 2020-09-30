@@ -15,15 +15,15 @@ html, body {
 }
 
 header {
-    min-width: 1200px;
     width: 100%;
     height: 60px;
     background-color: #212343;
+    padding: 0 2%;
 }
 
 .container {
-    padding: 0 2%;
-    width: 1280px;
+    max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -33,7 +33,8 @@ header img {
 }
 
 section.banner {
-    min-width: 1200px;
+    width: 100%;
+    padding: 0 2%;
     width: 100%;
     height: 557px;
     background-image: url('../images/header_bg.png');
@@ -129,8 +130,7 @@ section.banner > .container {
 }
 
 section.info {
-    min-width: 1200px;
-    padding: 40px 0;
+    padding: 40px 2%;
     background-color: #ccc;
     text-align: center;
 }
@@ -141,7 +141,7 @@ section.info h2 {
 
 section.info p {
     margin: 15px 0;
-    width: 689px;
+    width: 100%;
     display: inline-block;
     text-align: justify;
 }
@@ -158,7 +158,7 @@ div.arrow {
 }
 
 section.products {
-    padding: 90px 0;
+    padding: 90px 2%;
 }
 
 section.products h2 {
@@ -179,7 +179,7 @@ section.product {
 
 .single {
     float: left;
-    width: 33.33%;
+    width: 33.3333%;
     padding: 30px;
 }
 
