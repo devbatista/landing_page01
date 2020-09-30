@@ -55,7 +55,7 @@ section.banner>.container {
 }
 
 .form {
-    padding: 10px;
+    padding: 20px;
     width: 400px;
     height: calc(100% + 30px);
     position: relative;
@@ -97,7 +97,12 @@ section.banner>.container {
     margin-top: 8px;
     width: 344px;
     height: 55px;
+    padding: 8px 10px;
     border: 1px solid #ccc;
+}
+
+.input-groupt input[type=text]:focus {
+    outline: 0;
 }
 
 .form .input-group-submit {
